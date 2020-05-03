@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D03E560245ED91800B948CD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03E55F245ED91800B948CD /* DetailView.swift */; };
+		2D03E562245EF6F100B948CD /* music.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2D03E561245EF6F100B948CD /* music.mp4 */; };
 		2D2BD76C24591C6F00569B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2BD76B24591C6F00569B88 /* AppDelegate.swift */; };
 		2D2BD76E24591C6F00569B88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2BD76D24591C6F00569B88 /* SceneDelegate.swift */; };
 		2D2BD77024591C6F00569B88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2BD76F24591C6F00569B88 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D03E55F245ED91800B948CD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2D03E561245EF6F100B948CD /* music.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.mp4; sourceTree = "<group>"; };
 		2D2BD76824591C6F00569B88 /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2BD76B24591C6F00569B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D2BD76D24591C6F00569B88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +60,11 @@
 		2D2BD76A24591C6F00569B88 /* HW3 */ = {
 			isa = PBXGroup;
 			children = (
+				2D03E561245EF6F100B948CD /* music.mp4 */,
 				2D2BD76B24591C6F00569B88 /* AppDelegate.swift */,
 				2D2BD76D24591C6F00569B88 /* SceneDelegate.swift */,
 				2D2BD76F24591C6F00569B88 /* ContentView.swift */,
+				2D03E55F245ED91800B948CD /* DetailView.swift */,
 				2D2BD77124591C7600569B88 /* Assets.xcassets */,
 				2D2BD77624591C7600569B88 /* LaunchScreen.storyboard */,
 				2D2BD77924591C7600569B88 /* Info.plist */,
@@ -135,6 +141,7 @@
 			files = (
 				2D2BD77824591C7600569B88 /* LaunchScreen.storyboard in Resources */,
 				2D2BD77524591C7600569B88 /* Preview Assets.xcassets in Resources */,
+				2D03E562245EF6F100B948CD /* music.mp4 in Resources */,
 				2D2BD77224591C7600569B88 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2BD76C24591C6F00569B88 /* AppDelegate.swift in Sources */,
+				2D03E560245ED91800B948CD /* DetailView.swift in Sources */,
 				2D2BD76E24591C6F00569B88 /* SceneDelegate.swift in Sources */,
 				2D2BD77024591C6F00569B88 /* ContentView.swift in Sources */,
 			);
